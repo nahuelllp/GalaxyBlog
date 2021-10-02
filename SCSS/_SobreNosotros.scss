@@ -1,0 +1,137 @@
+.nosotros__background{
+	background-image: url(../Assets/img/fondonosotros.png);
+	height: 1100px;
+	background-size: cover;	
+}
+.nosotros__titulo{
+	text-align: center;
+	color: red;
+	font-size: 45px;
+	padding-top: 55px;
+	padding-bottom: 20px;
+	font-weight: 800;	
+}
+.nosotros__descrip{	
+	&--texto{
+	max-width: 600px;	
+	margin-left: 250px;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: orange;
+	}
+}
+.nosotros__paso1{	
+	&--texto{
+	max-width: 600px;
+	margin-right: 250px;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: orange;
+	}
+}
+.nosotros__paso2{	
+	&--texto{
+	max-width: 600px;	
+	margin-left: 250px;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: orange;
+	}
+}
+.nosotros__paso3{		
+	&--texto{
+	max-width: 600px;
+	margin-right: 250px;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: justify;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 30px;
+	color: orange;
+	}
+}
+.nosotros__pie{
+	text-align: center;
+	&--texto{
+	color: red;
+	font-size: 30px;
+	padding-top: 25px;
+	}
+}
+
+// CSS MOBILE //
+
+@media only screen and (max-width: 767px){
+.nosotros__background{
+	background-image: url(../Assets/img/fondonosotros.png);
+	height: auto;
+	background-size: cover;
+}
+.nosotros__descrip{	
+	&--texto{
+	max-width: auto;	
+	margin: auto;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 22px;
+	color: orange;
+	}
+}
+.nosotros__paso1{	
+	&--texto{
+	max-width: auto;
+	margin: auto;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 22px;
+	color: orange;
+	}
+}
+.nosotros__paso2{	
+	&--texto{
+	max-width: auto;	
+	margin: auto;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 22px;
+	color: orange;
+	}
+}
+.nosotros__paso3{		
+	&--texto{
+	max-width: auto;
+	margin: auto;
+	background-color: rgba(0, 0, 0, .7);
+	text-align: center;
+	padding: 20px;
+	border-radius: 15px;
+	font-size: 22px;
+	color: orange;
+	}
+}
+.nosotros__pie{
+	text-align: center;
+	&--texto{
+	color: red;
+	font-size: 22px;
+	padding-top: 25px;
+	}
+}
+
+
+}
