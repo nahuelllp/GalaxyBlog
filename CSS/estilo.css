@@ -129,7 +129,8 @@
 
 .nosotros__titulo {
   text-align: center;
-  color: red;
+  color: #E2E2D8;
+  text-shadow: #d00c46 0 3px;
   font-size: 45px;
   padding-top: 55px;
   padding-bottom: 20px;
@@ -143,7 +144,7 @@
   padding: 20px;
   border-radius: 15px;
   font-size: 30px;
-  color: orange; }
+  color: white; }
 
 .nosotros__paso1--texto {
   max-width: 600px;
@@ -153,7 +154,7 @@
   padding: 20px;
   border-radius: 15px;
   font-size: 30px;
-  color: orange; }
+  color: white; }
 
 .nosotros__paso2--texto {
   max-width: 600px;
@@ -163,7 +164,7 @@
   padding: 20px;
   border-radius: 15px;
   font-size: 30px;
-  color: orange; }
+  color: white; }
 
 .nosotros__paso3--texto {
   max-width: 600px;
@@ -173,7 +174,7 @@
   padding: 20px;
   border-radius: 15px;
   font-size: 30px;
-  color: orange; }
+  color: white; }
 
 .nosotros__pie {
   text-align: center; }
@@ -195,7 +196,7 @@
     padding: 20px;
     border-radius: 15px;
     font-size: 22px;
-    color: orange; }
+    color: white; }
   .nosotros__paso1--texto {
     max-width: auto;
     margin: auto;
@@ -204,7 +205,7 @@
     padding: 20px;
     border-radius: 15px;
     font-size: 22px;
-    color: orange; }
+    color: white; }
   .nosotros__paso2--texto {
     max-width: auto;
     margin: auto;
@@ -213,7 +214,7 @@
     padding: 20px;
     border-radius: 15px;
     font-size: 22px;
-    color: orange; }
+    color: white; }
   .nosotros__paso3--texto {
     max-width: auto;
     margin: auto;
@@ -222,7 +223,7 @@
     padding: 20px;
     border-radius: 15px;
     font-size: 22px;
-    color: orange; }
+    color: white; }
   .nosotros__pie {
     text-align: center; }
     .nosotros__pie--texto {
@@ -374,7 +375,7 @@
     margin-bottom: 40px; } }
 
 body {
-  background: linear-gradient(#d4ecdd, #345b63, #152d35); }
+  background: linear-gradient(#d4ecdd, #345b63); }
 
 .contacto__titulo {
   font-size: 45px;
